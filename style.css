@@ -1,0 +1,702 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    text-shadow: 1px 1px #b0eafd;
+    overflow-x: hidden;
+  }
+  
+  .header .nav .btn-1, .hero .hero-btn, .btn-2, .footer .newsletter .footer-form .btn-footer {
+    border: none;
+    background-color: #ff52bf;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 2rem;
+    color: #f5faff;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    padding: 1.3rem 7rem;
+  }
+  
+  .header .nav .btn-1:hover, .hero .hero-btn:hover, .btn-2:hover, .footer .newsletter .footer-form .btn-footer:hover {
+    background: #ec44a9;
+    transition-duration: 0.5s;
+    color: #f5faff;
+  }
+  
+  .container-1 .content-1 h3, .container-2 h3, .container-3 h3, .build-community h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: "Poppins";
+  }
+  
+  .container-1, .container-2, .container-3, .footer {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    display: block;
+  }
+  
+  .header .nav {
+    margin-top: 3.5rem;
+    margin-bottom: 3rem;
+  }
+  .header .nav #logo {
+    margin-left: 4rem;
+  }
+  
+  .header .nav .btn-1 {
+    float: right;
+    margin-right: 4rem;
+    background-color: transparent;
+    border: 1px solid #ff52bf;
+    color: #ff52bf;
+    padding: 0.4rem 2rem;
+    box-shadow: 1px 1px 55px 255;
+  }
+
+  .hero {
+    text-align: center;
+    margin-top: 12rem;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    font-family: "Poppins";
+    padding: 1rem 0;
+    margin: 0 10rem;
+  }
+
+  .hero p {
+    font-size: 1.4rem;
+    max-width: 50%;
+    margin: auto;
+    line-height: 1.9rem;
+    padding: 0.4rem 0;
+    margin-bottom: 2.5rem;
+  }
+  
+  .hero .screen-mockups-img {
+    padding: 5rem 0;
+  }
+
+  .milestones {
+    margin-bottom: 10rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 9rem;
+  }
+  
+  .milestones p {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #9c9c9c;
+  }
+  
+  .milestones h2 {
+    font-size: 5rem;
+  }
+  
+  .milestones .communities {
+    display: flex;
+    flex-direction: column;
+  }
+  .milestones .communities img {
+    width: 47px;
+    height: 41px;
+    order: -1;
+  }
+  .milestones .message-sent {
+    display: flex;
+    flex-direction: column;
+  }
+  .milestones .message-sent img {
+    width: 48px;
+    height: 40px;
+    order: -1;
+  }
+  
+
+  
+  .bg-lt-blue {
+    background: #f6fbff;
+  }
+  
+  .container-1 .content-1 {
+    align-self: center;
+  }
+  .container-1 .content-1 p {
+    max-width: 530px;
+  }
+
+  .container-1 .grow-together-img {
+    width: 30%;
+    padding: 2rem 0;
+  }
+
+  .container-2 {
+    margin-bottom: 10rem;
+  }
+
+  .container-2 .flowing-convo-img {
+    width: 30%;
+  }
+
+  .container-2 .content-2 {
+    align-self: center;
+  }
+  
+  
+  .container-2 p {
+    max-width: 530px;
+  }
+  
+  
+  .container-3 .your-user-img {
+    width: 30%;
+    padding: 2rem 0;
+  }
+
+  
+  .container-3 .content-3 {
+    align-self: center;
+  }
+  
+  .container-3 p {
+    max-width: 530px;
+  }
+  
+  
+  .build-community {
+    text-align: center;
+    margin-bottom: 13rem;
+  }
+  
+  
+  .bg-wave-1 {
+    width: 100%;
+    display: block;
+  }
+
+  
+  .bg-wave-2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10rem;
+  }
+ 
+  .footer-bg-top {
+    width: 100%;
+    height: 157px;
+    display: block;
+  }
+
+  
+  .footer-dark-bg {
+    background: #00252e;
+    height: 550px;
+  }
+
+  .footer {
+    color: #fff;
+    text-shadow: none;
+  }
+
+  .footer .footer-1 {
+    margin-top: 8rem;
+    font-weight: 400;
+    margin-right: 6rem;
+  }
+  
+
+  .footer .footer-1 .footer-logo {
+    filter: invert(1) sepia(1) saturate(1) hue-rotate(0deg) brightness(5);
+    margin-bottom: 1.5rem;
+  }
+
+  
+  .footer .footer-1 p {
+    max-width: 350px;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer .footer-1 ul {
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  .footer .footer-1 .contacts .fas {
+    padding-right: 2rem;
+  }
+  
+  
+  .footer .footer-1 .contacts .far {
+    padding-right: 2rem;
+    padding-top: 1.2rem;
+  }
+
+  .footer .footer-1 .social-icons > i,
+  .footer .footer-1 a {
+    display: inline-block;
+    margin-right: 1.2em;
+    margin-top: 5.5rem;
+    text-decoration: none;
+    color: #e4e4e4;
+  }
+
+  .footer .footer-1 a:hover {
+    color: #ec44a9;
+    transition-duration: 0.5s;
+  }
+  
+  .footer .newsletter {
+    margin-top: 7.5rem;
+    margin-right: 6rem;
+  }
+  
+  
+  
+  .footer .newsletter p {
+    margin-top: 1.4rem;
+    max-width: 380px;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .footer .newsletter h3 {
+    font-size: 2rem;
+  }
+
+  
+  .footer .newsletter .footer-form {
+    position: relative;
+  }
+  
+  .footer .newsletter .footer-form .btn-footer {
+    padding: 0 50px;
+    margin: 8px 0;
+    padding: 0.6rem 2rem;
+    border-radius: 0.3rem;
+    position: absolute;
+  }
+  
+  
+  .footer .newsletter .footer-form input[type="text"] {
+    width: 90%;
+    padding: 0.7rem 1rem;
+    margin: 8px 0;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    color: #020202;
+    margin-right: 2rem;
+  }
+   #error-email {
+    color: hsl(354, 100%, 66%);
+    font-size:small;
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+ 
+/*................................................................ mobile version..................................... */
+@media only screen and (max-width: 375px) {
+  .footer .newsletter .footer-form {
+    width: 95%;
+  }
+  .footer .newsletter p {
+    font-size: 0.8rem;
+  }
+  .footer .newsletter h3 {
+    font-size: 1.7rem;
+  }
+  .footer .newsletter {
+    margin-top: 4rem;
+  }
+  .footer .footer-1 .contacts {
+    margin-top: 2.5rem;
+  }
+  .footer .footer-1 .social-icons > i,
+  .footer .footer-1 a {
+    margin-top: 3.2rem;
+  }
+  .footer .footer-1 .contacts .far {
+    padding-right: 1rem;
+  }
+  .footer .footer-1 .contacts .fas {
+    padding-right: 1rem;
+  }
+  .footer .footer-1 .footer-logo {
+    width: 60%;
+    margin-top: 5rem;
+  }
+  .footer .footer-1 {
+    margin-right: 0rem;
+  }
+  .footer {
+    margin: 0 1.3rem;
+  }
+  .footer-dark-bg {
+    height: 770px;
+  }
+  .btn-2 {
+    padding: 0.8rem 2.2rem;
+    font-size: 0.9rem;
+  }
+  .build-community h3 {
+    font-size: 1.7rem;
+  }
+  .container-3 p {
+    font-size: 0.8rem;
+    max-width: 280px;
+    padding-top: 1.1rem;
+    margin-bottom: 3.5rem;
+  }
+  .container-3 h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .container-2 p {
+    font-size: 0.8rem;
+    max-width: 280px;
+    padding-top: 1.1rem;
+    margin-bottom: 3.5rem;
+  }
+  .container-2 h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .container-1 .content-1 p {
+    font-size: 0.8rem;
+    max-width: 280px;
+    padding-top: 1.1rem;
+    margin-bottom: 3.5rem;
+  }
+  .container-1 .content-1 h3 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+  .milestones .message-sent img {
+    width: 30px;
+    height: 26px;
+  }
+  .milestones .message-sent img {
+    width: 30px;
+    height: 26px;
+  }
+  .milestones .message-sent {
+    align-self: center;
+    margin-bottom: 3rem;
+  }
+  .milestones .communities img {
+    width: 30px;
+    height: 26px;
+    margin-top: 2rem;
+  }
+  .milestones p {
+    font-size: 0.9rem;
+  }
+  .milestones h2 {
+    font-size: 3.3rem;
+  }
+  .milestones .communities {
+    align-self: center;
+    margin-bottom: 7rem;
+  }
+  .milestones {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .hero .screen-mockups-img {
+    padding: 3rem 0;
+  }
+  .hero .hero-btn {
+    padding: 0.8rem 3.2rem;
+    font-size: 0.2rem;
+  }
+  .header .nav {
+    display: flex;
+    margin-top: 2rem;
+  }
+    #logo{
+    width: 120px;
+    height:40px;
+    margin-left:30px;
+  }
+  .header .nav .btn-1 {
+    padding: 0.3rem 1.3rem;
+    font-size: 0.5rem;
+    margin-left: 40px;
+  }
+  .hero {
+    margin-top: 7rem;
+  }
+  .hero p {
+    max-width: 73%;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    text-shadow: none;
+  }
+  .hero h1 {
+    font-size: 1rem;
+    margin: 0 2.5rem;
+  }
+}
+
+/* ...............................................................mini-tablet ............................................*/
+@media only screen and (max-width: 568px) {
+  .header .nav .logo {
+    width: 160px;
+    height: auto;
+    margin-left: 2rem;
+  }
+  .header .nav .btn-1 {
+    padding: 0.3rem 1.5rem;
+    font-size: 0.9rem;
+    margin-right: 2rem;
+  }
+  .milestones .message-sent {
+    align-self: center;
+    margin-bottom: 7rem;
+  }
+  .milestones .communities {
+    align-self: center;
+    margin-bottom: 7rem;
+  }
+  .milestones {
+    flex-direction: column;
+  }
+  .hero .hero-btn {
+    padding: 1rem 4rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+  .hero h1 {
+    font-size: 2rem;
+    margin: 0 1rem;
+  }
+}
+/* ...............................................................tablet version......................................... */
+@media only screen and (max-width: 768px) {
+  .footer .newsletter p {
+    max-width: 450px;
+    font-size: 0.9rem;
+  }
+  .footer .footer-1 p {
+    max-width: 300px;
+    font-size: 0.9rem;
+  }
+  .footer .footer-1 .footer-logo {
+    width: 40%;
+  }
+  .footer .footer-1 {
+    margin-right: 3rem;
+  }
+  .footer {
+    justify-content: space-between;
+    flex-direction: column-reverse;
+  }
+  .footer-dark-bg {
+    height: 820px;
+  }
+  .footer-mobile {
+    display: block !important;
+    width: 100%;
+    height: 52px;
+  }
+  .bg-wave-2-mobile-2 {
+    display: block !important;
+    width: 100%;
+  }
+  .bg-wave-1-mobile-2 {
+    display: block !important;
+    width: 100%;
+  }
+  .bg-wave-2-mobile {
+    display: block !important;
+    width: 100%;
+    margin-bottom: 10rem;
+  }
+  .bg-wave-1-mobile {
+    display: block !important;
+    width: 100%;
+    height: auto;
+  }
+  .footer-bg-top {
+    display: none;
+  }
+  .bg-wave-2 {
+    display: none;
+  }
+  .bg-wave-1 {
+    display: none;
+  }
+  .container-3 p {
+    font-size: 1rem;
+    margin-bottom: 3.5rem;
+    max-width: 550px;
+  }
+  .container-3 .content-3 {
+    margin: 0 1rem;
+  }
+  .container-3 .your-user-img {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+  }
+  .container-3 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .container-2 p {
+    margin-right: 0;
+    font-size: 1rem;
+    max-width: 550px;
+  }
+  .container-2 .content-2 {
+    margin: 0 2rem;
+  }
+  .container-2 .flowing-convo-img {
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+  }
+  .container-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+  .container-1 .grow-together-img {
+    margin-right: 1rem;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+  }
+  .container-1 .content-1 p {
+    font-size: 1rem;
+    max-width: 550px;
+    padding-top: 1.1rem;
+    margin-bottom: 3.5rem;
+  }
+  .container-1 .content-1 h3 {
+    font-size: 2.5rem;
+    margin: 0;
+  }
+  .hero h1 {
+    font-size: 2.8rem;
+    margin: 0 5rem;
+  }
+  .container-1 {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .container-1 .content-1 {
+    margin: 0 1rem;
+  }
+  .milestones {
+    padding: 0;
+  }
+  .hero p {
+    max-width: 80%;
+    font-size: 1rem;
+    line-height: 1.7rem;
+  }
+}
+
+/* ................................................................desktop version .......................................*/
+@media only screen and (max-width: 1024px) {
+  .build-community h3 {
+    font-size: 2.3rem;
+  }
+  .btn-2 {
+    padding: 1.1rem 5rem;
+  }
+  .container-3 h3 {
+    font-size: 2.3rem;
+  }
+  .container-3 .your-user-img {
+    width: 35%;
+  }
+  .container-3 p {
+    font-size: 0.9rem;
+    max-width: 400px;
+  }
+  .container-3 {
+    justify-content: space-evenly;
+  }
+  .container-2 p {
+    font-size: 0.9rem;
+    max-width: 400px;
+  }
+  .container-2 h3 {
+    font-size: 2.3rem;
+  }
+  .container-2 .flowing-convo-img {
+    width: 35%;
+  }
+  .container-2 {
+    justify-content: space-evenly;
+  }
+  .container-1 .grow-together-img {
+    width: 35%;
+  }
+  .container-1 .content-1 p {
+    font-size: 0.9rem;
+    max-width: 400px;
+  }
+  .container-1 .content-1 h3 {
+    font-size: 2.3rem;
+  }
+  .container-1 {
+    justify-content: space-evenly;
+  }
+}  
+
+/* ............................................................big screen................................................  */
+@media only screen and (max-width: 1280px) {
+  .footer .newsletter .footer-form .btn-footer {
+    display: flex;
+  }
+  .footer .newsletter {
+    margin-right: 0;
+  }
+  .footer {
+    margin: 0 3rem;
+  }
+  .hero .screen-mockups-img {
+    width: 89%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .hero .hero-btn {
+    padding: 1.1rem 5rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+  }
+  .hero h1 {
+    font-size: 2.7rem;
+  }
+  .header .nav .logo {
+    width: 210px;
+    height: auto;
+  }
+}
