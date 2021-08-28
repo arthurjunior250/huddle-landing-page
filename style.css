@@ -290,13 +290,14 @@
   .footer .newsletter .footer-form .btn-footer {
     padding: 0 50px;
     margin: 8px 0;
-    padding: 0.6rem 2rem;
+    padding: 0.6rem 3rem;
     border-radius: 0.3rem;
     position: absolute;
   }
   
   
   .footer .newsletter .footer-form input[type="text"] {
+
     width: 90%;
     padding: 0.7rem 1rem;
     margin: 8px 0;
@@ -699,4 +700,90 @@
     width: 210px;
     height: auto;
   }
+}
+/*................................. email input .......................*/
+.button:hover{
+  background: #ec44a9;
+  transition-duration: 0.5s;
+  color: #f5faff;
+}
+input {
+  display: block;
+  font-family: "Libre Franklin", sans-serif;
+  margin: 0 auto;
+  padding: 1em;
+  width: 80%;
+  max-width: 400px;
+  border: none;
+  border-radius: 10px;
+}
+input[type="email"] 
+  {
+  border: 1px solid hsl(223, 100%, 88%);
+  color: hsl(209, 33%, 12%);
+  outline: none;
+  }
+
+input[type="email"]::placeholder
+{
+color: hsl(0, 0%, 59%);
+}
+
+input[type="email"]:focus::placeholder 
+{
+color: transparent;
+}
+
+#error-email {
+color: hsl(354, 100%, 66%);
+font-size:x-small;
+font-weight: 600;
+font-style: italic;
+text-align: center;
+margin-top: 0.5em;
+margin-bottom: 1em;
+}
+
+.button {
+cursor: pointer;
+background-color: #ff52bf;
+color: white;
+box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.15);
+font-weight: 600;
+margin-bottom: 4em;
+}
+
+input[type="submit"]:hover {
+opacity: 0.8;
+}
+
+
+
+@media (min-width: 1000px) {
+form {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-left: -70px;
+}
+
+.email-input {
+  width: 60%;
+}
+
+input[type="email"] {
+  align-self: flex-start;
+  width: 80%;
+  margin-right: 0;
+}
+
+#error-email {
+  text-align: left;
+  margin-left: 8em;
+}
+
+.button {
+  width: 25%;
+  margin-left: 1em;
+}
 }

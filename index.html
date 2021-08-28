@@ -116,11 +116,14 @@
                 <h3>Newsletter</h3>
                 <p> To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never
                     send you spam or pass on your email address</p>
+    
                 <form class="footer-form" name="myForm" onsubmit="return validateForm()">
-                    <input type="text" id="fname" name="your-email" value="">
+                    <div class="email-input">
+                    <input type="email" name="your-email" id="fname"  placeholder="Your email address..."/>
                     <span id="error-email"></span>
-                    <button type="submit" class="btn-footer">Subscribe</button>
-                </form>
+                  </div>
+                    <input class="button" type="submit" value="Subscribe ">
+                  </form>
 
             </div>
 
